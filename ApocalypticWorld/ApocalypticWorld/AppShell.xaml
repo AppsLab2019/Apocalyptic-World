@@ -7,15 +7,25 @@
        xmlns:local="clr-namespace:ApocalypticWorld.Views"
        xmlns:ApocalypticWorld="clr-namespace:ApocalypticWorld;assembly=ApocalypticWorld"
        Title="ApocalypticWorld"
-       x:Class="ApocalypticWorld.AppShell">
+       x:Class="ApocalypticWorld.AppShell"
+       BackgroundColor="Black"
+       >
 
-    <FlyoutItem Title="Start">
+    <Shell.FlyoutHeader>
+        <Image Source="Header.png"
+               Aspect="AspectFill"
+               />
+        
+    </Shell.FlyoutHeader>
+    
+    <FlyoutItem Title="Start" Icon="StartIcon.png">
         <Tab>
             <ShellContent>
                 <ApocalypticWorld:MainPage />
             </ShellContent>
         </Tab>
     </FlyoutItem>
+    
     <FlyoutItem Title="About">
         <Tab>
             <ShellContent>
@@ -23,11 +33,5 @@
             </ShellContent>
         </Tab>
     </FlyoutItem>
-    <Shell.FlyoutHeader>
-        <Label Text="Dorobit:)"
-                   TextColor="White"
-                   FontAttributes="Bold"
-                   HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center" />
-    </Shell.FlyoutHeader>
+    
 </Shell>

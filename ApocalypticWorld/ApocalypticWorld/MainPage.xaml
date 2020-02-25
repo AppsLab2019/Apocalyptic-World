@@ -5,12 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="ApocalypticWorld.MainPage">
-    <Grid>
+    <Grid RowSpacing="0">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="1*"/>
             <RowDefinition Height="0.3*"/>
         </Grid.RowDefinitions>
-        <Label Text="Welcome to Apocalyptic World!" FontAttributes="Bold" FontSize="50" FontFamily="" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"/>
-        <Button Text="Začať hru" FontSize="50" Grid.Row="1" Clicked="Button_Clicked"/>
+        <Image Source="apocalypse.png"
+               Aspect="AspectFill"
+               />
+        <Button BorderWidth="0" Text="Začať hru" FontSize="50" Grid.Row="1" Clicked="Button_Clicked"/>
     </Grid>
 </ContentPage>
