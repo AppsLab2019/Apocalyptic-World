@@ -8,16 +8,12 @@
        xmlns:ApocalypticWorld="clr-namespace:ApocalypticWorld;assembly=ApocalypticWorld"
        Title="ApocalypticWorld"
        x:Class="ApocalypticWorld.AppShell"
-       BackgroundColor="Black"
-       >
-
+       BackgroundColor="Black">
     <Shell.FlyoutHeader>
         <Image Source="Header.png"
                Aspect="AspectFill"
                />
-        
     </Shell.FlyoutHeader>
-    
     <FlyoutItem Title="Start" Icon="StartIcon.png">
         <Tab>
             <ShellContent>
@@ -25,13 +21,11 @@
             </ShellContent>
         </Tab>
     </FlyoutItem>
-    
-    <FlyoutItem Title="About">
+    <FlyoutItem Title="About" Icon="AboutIcon">
         <Tab>
             <ShellContent>
                 <ApocalypticWorld:About />
             </ShellContent>
         </Tab>
     </FlyoutItem>
-    
 </Shell>

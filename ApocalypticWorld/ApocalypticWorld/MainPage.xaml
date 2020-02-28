@@ -5,14 +5,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="ApocalypticWorld.MainPage">
-    <Grid RowSpacing="0">
+    <Grid RowSpacing="0" BackgroundColor="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.2*"/>
         </Grid.RowDefinitions>
         <Image Source="apocalypse.png"
-               Aspect="AspectFill"
-               />
-        <Button BorderWidth="0" Text="Začať hru" FontSize="50" Grid.Row="1" Clicked="Button_Clicked"/>
+               Aspect="AspectFill"/>
+        <ImageButton Source="start.png" Grid.Row="1" BorderColor="Black" Clicked="Button_Clicked" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Aspect="AspectFill"/>
     </Grid>
 </ContentPage>
