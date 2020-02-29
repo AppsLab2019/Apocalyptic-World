@@ -12,6 +12,6 @@
         </Grid.RowDefinitions>
         <Image Source="apocalypse.png"
                Aspect="AspectFill"/>
-        <ImageButton Source="start.png" Grid.Row="1" BorderColor="Black" Clicked="Button_Clicked" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Aspect="AspectFill"/>
+        <ImageButton Source="start.png" Grid.Row="1" BorderColor="Black" Clicked="Button_Clicked" HorizontalOptions="Center" Aspect="AspectFill"/>
     </Grid>
 </ContentPage>
