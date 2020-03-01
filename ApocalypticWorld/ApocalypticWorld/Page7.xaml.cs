@@ -10,15 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace ApocalypticWorld
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page6 : ContentPage
+    public partial class Page7 : ContentPage
     {
-        public Page6()
+        public Page7()
         {
             InitializeComponent();
-        }
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Page7());
         }
     }
 }
