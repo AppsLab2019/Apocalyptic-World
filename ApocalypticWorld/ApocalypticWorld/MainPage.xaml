@@ -15,3 +15,4 @@
         <ImageButton Source="start.png" Grid.Row="1" BorderColor="Black" Clicked="Button_Clicked" HorizontalOptions="Center" Aspect="AspectFill"/>
     </Grid>
 </ContentPage>
+    
