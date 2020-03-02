@@ -6,6 +6,5 @@
              mc:Ignorable="d"
              x:Class="ApocalypticWorld.App">
     <Application.Resources>
-        
     </Application.Resources>
 </Application>
