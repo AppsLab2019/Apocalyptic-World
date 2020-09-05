@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Nikto_neprežije">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Mierili sme k horskému hotelu, v ktorom malo byť bezpečno. Po ceste sme stretli veľa zombie, ktoré nám skákali do cesty. 
+Bez problémov som ich zrážal, až kým sa pred nami neobjavila jedna obrovská zombie. Strhol som volant, pretože som vedel, že pri náraze by to dopadlo zle. 
+Autobus sa začal nakláňať, až sa nakoniec celý prevrátil a skončili sme v priekope. Bolí ma hlava a mám zlomenú nohu. Ledva si pamätám čo sa stalo. 
+Opatrne sa začnem pozerať okolo seba. Nikto sa nehýbe. V tom zbadám svoju ženu ako sa začala hýbať a blíži sa smerom ku mne. Má však to chladné prázdno v očiach. 
+Je zombie. Už je takmer pri mne. V tom zbadám ako sa začínajú hýbať aj moje deti. Avšak taktiež už nie sú živé. Posledné čo vidím je, ako sa moja žena zakusuje do môjho krku.
+
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Koniec" FontSize="25" Grid.Row="2" Clicked="K_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

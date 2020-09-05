@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Za_rodinou">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Rozhodnem sa, že sa vydám nájsť svoju rodinu. Zamierim smerom k nášmu domu. Všímam si okolie a čím ďalej tým viac pochybujem, že mohla moja rodina prežiť. 
+Avšak chcem veriť tomu, že stále žijú. Som kúsok od môjho domu, keď v tom sanitka prestane ísť. Niečo sa stalo s motorom. 
+Rozhodnem sa ísť peši. Mierim priamo k môjmu domu, ktorý mám už takmer nadohľad, keď v tom zbadám muža so zbraňou v rukách. 
+Je kúsok odo mňa, zatiaľ si ma však nevšimol. Neviem čo robiť, preto sa len schovám a čakám. 
+Premyslím si čo ďalej, nakoniec sa však vydám smerom k nemu s rukami nad hlavou. Keď ma zbadá, zakričí mi: Kľud, po ľuďoch nestrieľam. 
+Pomaly zložím ruky a mierim smerom k nemu. Už som takmer pri ňom.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

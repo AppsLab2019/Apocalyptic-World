@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Skúsim_mu_pomôcť">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Opatrne vkročím do miestnosti a prikrčím sa k doktorovi. Ten mi z posledných síl povie aby som robil čo najmenej hluku a zavrel za sebou dvere. 
+Poprosí ma, aby som mu podal kus látky ktorou by si mohol prekryť brucho. Podám mu uterák ktorý leží kúsok odo mňa. 
+Hneď na to sa ho spýtam, ako sa mu to stalo. Vysvetlí mi, že do celého mesta sa dostala nákaza, ktorá robí z ľudí zombie. 
+Snažím sa nájsť nejakú vodu. V rohu miestnosti vidím umývadlo. Do nádoby ktorú som našiel na stole naberiem vodu a podám ju doktorovi. 
+Pomaly mu pomôžem vstať. Keď už stojí, opatrne pootvorím dvere. Nazriem cez ne, či môžme bezpečne prejsť. Zdá sa, že v okolí žiadne zombie nie sú. 
+Podopriem doktora a pomaly sa vydáme smerom ku garažiam, kde by mali byť zaparkované sanitky. Keď sa konečne dostaneme ku garažiam zbadáme tam dve zombie.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Doktora opriem o stenu a pokúsim sa ich odlákať" FontSize="25" Grid.Row="2" Clicked="DOOSAPSIO_Clicked"/>
+        <Button Text="Spolu s doktorom rýchlo prejdeme k sanitke" FontSize="25" Grid.Row="3" Clicked="SSDRPKS_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

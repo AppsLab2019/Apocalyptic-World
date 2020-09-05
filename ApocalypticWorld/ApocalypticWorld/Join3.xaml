@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Join3">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Pomaly prechádzam celú základňu, snažím sa všímať si každého človeka. Keď už mám prejdené takmer celú základňu, v rozhlase začujem svoje meno. 
+Veliteľ základne ma volá k sebe. Keď tam prídem, zbadám tam celú svoju rodinu a ostanem v nemom úžase. Z celej sily objímem svoju ženu a deti. 
+Vojáci nás odviedli naspäť na izbu. Asi po dvoch dňoch prišiel za nami veliteľ s tým, že potrebuje ľudí na misiu. 
+Cieľom misie bolo presunúť asi 30 ľudí (vrátane nás) na iné bezpečné miesto. Potrebovali zručného šoféra, ktorý by šoféroval autobus. 
+Ponúkol som sa, keďže som mal nejaké skúsenosti s autobusom. Zbalili sme si veci, nastúpili do autobusu a pomaly sa vydali na cestu.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

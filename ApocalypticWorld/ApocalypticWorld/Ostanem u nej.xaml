@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Ostanem_u_nej">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Povedal som jej, kam mám namierené a ponúkol jej, že sa môže ku mne pridať. Povedala však, že by ešte chvíľu chcela ostať doma. 
+Ponúkol som jej, že ostanem s ňou. Prijala to a tak som šiel uvariť čaj. Keď bol čaj hotový, zaniesol som ho do obývačky, kde bola aj Mia a už mŕtvý Trevor. 
+Zabudol som vziať cukor. Šiel som teda preň do kuchyne. O chvíľu sa ozval strašný výkrik. Vybehol som z kuchyne rovno do obývačky, kde som zbadal, ako Trevor pokúsal Miu. 
+Zásah do brucha ho nezabil. Mia ležala na zemi a Trevor bol priamo na nej. Zamieril som, tento krát na hlavu a vystrelil. 
+Trevor spadol na zem vedľa Mii, ktorá tam len nehybne ležala. Ešte stále žila, bolo však jasné, že už dlho nebude. 
+Rozhodol som sa preto zbaviť ju bolesti a namieril som zbraň na ňu. Zmačkol som spúšť. Bol to môj posledný náboj. 
+Vybehol som z domu rovno do auta a zamieril priamo na chatu k svojej rodine. Po ceste som myslel len na Miu a Trevora a dúfal som, že sa niečo podobné nestane mne.
+Keď som dorazil, privítala ma manželka aj s mojími deťmi. Začal som rozprávať o tom čo sa deje v meste a čo som zažil.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

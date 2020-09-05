@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Ostanem_v_dome">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Ostanem chvíľu v dome. Prezrel som všetky poličky v kuchyni, avšak neostalo tam nič. Voda stále tečie. 
+Napijem sa a rozmýšľam čo ďalej. Pokúsim sa vyraziť do blízkeho obchodu pre nejaké jedlo. 
+Keď k nemu prídem, všimnem si, že už tam pravdepodobne niekto bol predo mnou. Napriek tomu idem dnu. 
+Keď vyberám sušienky z jednej z poličiek, začujem tichý hlas, ktorý ide z malého skladu obchodu. 
+Vytiahnem zbraň a opatrne vchádzam do skladu. Keď vôjdem zbadám ženu, ktorá skrýva dve deti. 
+Ostanem však zarazený a okamžite odložím zbraň. Je to moja žena Ashley a moje deti. Veľmi prekvapený sa pýtam, čo tam robia. 
+Ashley mi odpovedá, že deti boli hladné a preto sa zastavili zobrať niečo na jedlo. Rýchlo sme zobrali nejaké jedlo a nastúpili do jej auta, pretože bolo väčšie.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pôjdeme smerom k chate" FontSize="25" Grid.Row="2" Clicked="PSKC_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

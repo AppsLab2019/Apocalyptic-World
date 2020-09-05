@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Skúsim_znova_naštartovať">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Skúšam znovu naštartovať. Podarilo sa. Auto funguje. Rýchlo zaradím jednotku a idem tak rýchlo ako sa len dá. 
+Tieto cesty poznám a tak mierim rovno domov. Po ceste mi na auto skáču zombie, avšak nemám k ním žiadny súcit. 
+Cesty sú takmer plné rozbitých áut, z ktorých stále vyliezajú nemŕtvi. Keď už som takmer pri mojom dome vidím mojích susedov ako len prázdno pozerajú smerom na mňa. 
+Už tiež nie sú medzi živými. Vo vnútri veľmi dúfam, že sa moja rodina schovala a ešte stále sú všetci nažive. Prichádzam k môjmu domu a vidím, že dvere sú otvorené. 
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Nájdem si zbraň" FontSize="25" Grid.Row="2" Clicked="NSZ_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

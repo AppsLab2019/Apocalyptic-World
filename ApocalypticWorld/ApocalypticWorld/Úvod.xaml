@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Úvod">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Zobudil som sa v malej čiernej miestnosti. Všetko ma bolí a ledva môžem pohnúť rukami. Posledné čo si pamätám je ako som šiel večer z práce. 
+Bol to posledný deň práce pred Vianocami. Neviem kde som, ako som sa tu dostal a prečo tu nikto nie je. Cítim, že na mojej nohe niečo je. 
+Pokúsim sa zistiť, čo to je. veľmi pomaly sa začnem hýbať smerom k nohe. Rukami sa snažím zistiť, čo ju zakliesnilo. 
+Po chvíli zistím, že je to pravdepodobne komoda ktorá na mňa spadla.
+Čo urobím?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokúsim sa komodu pohnúť" FontSize="25" Grid.Row="2" Clicked="PSKP_Clicked"/>
+        <Button Text="Chvíľu si ešte oddýchnem" FontSize="25" Grid.Row="3" Clicked="CSEO_Clicked"/>
+        <Button Text="Začnem kričať o pomoc" FontSize="25" Grid.Row="4" Clicked="ZKOP_Clicked"/>
+    </Grid>
+</ContentPage>

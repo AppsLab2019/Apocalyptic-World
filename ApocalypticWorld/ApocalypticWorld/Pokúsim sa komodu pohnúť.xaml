@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Pokúsim_sa_komodu_pohnúť">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Skúšam do komody tlačiť celou silou a cítim ako sa mierne hýbe. Avšak nemám dosť síl. 
+Skúšam to znova a znova ale bez úspechu. Po asi 5 minútach cítim, ako pomaly skĺzava z mojej nohy. Môžem sa postaviť. 
+Veľmi opatrne sa postavím a hmatom sa snažím nájsť východ. Dostanem sa až k dverám za ktorými vidím svetlo. Bez váhania prejdem cez dvere, avšak hneď toho oľutujem. 
+Všade je krv. Pomaly idem k najbližšej miestnosti. Opatrne pootvorím dvere a pozriem sa dnu. 
+Na zemi leží pravdepodobne doktor, ktorý má roztrhnuté brucho z ktorého mu trčia vnútornosti. Ešte však stále žije a ticho šepká o pomoc.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Začnem utekať ďalej" FontSize="25" Grid.Row="2" Clicked="ZUD_Clicked"/>
+        <Button Text="Spýtam sa, čo sa tu stalo" FontSize="25" Grid.Row="3" Clicked="SSCSTS_Clicked"/>
+        <Button Text="Skúsim mu pomôcť" FontSize="25" Grid.Row="4" Clicked="SMP_Clicked"/>
+    </Grid>
+</ContentPage>

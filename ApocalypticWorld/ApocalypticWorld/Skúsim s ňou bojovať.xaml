@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Skúsim_s_ňou_bojovať">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Vidím jej ruku ako sa blíži ku mne a hneď ju schmatnem. Snažím sa využiť všetkú svoju zostávajúcu silu na to, aby som ju zhodil na zem. 
+Keď sa mi to podarí, v okolí hľadám nejakú zbraň. Jediné čo nájdem je stredne veľký kameň. 
+Zoberiem ho a udieram susedu po hlave až kým sa neprestane úplne hýbať. Zhrozený sám sebou zahodím kameň a postavím sa. 
+Opäť sa vydám smerom k domu, rozmýšľam ako som vôbec niečo také dokázal spraviť. Vchádzam do domu, kde však nikoho nie je. 
+Až po chvíli začujem tiché chrčanie v jednej z izieb. Keď vôjdem dnu vidím svoju ženu aj s deťmi, avšak už nie sú ľudia. 
+Rýchlo sa otočím a utekám z domu. V chodbe zbadám zavesené kľúče. Ako vychádzam z domu, otočím sa a zamknem dvere od domu. 
+Pred domom je odstavené naše auto. Nastúpim dnu a naštartujem.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Vydám sa smerom k malej dedinke" FontSize="25" Grid.Row="2" Clicked="VSSKMD_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

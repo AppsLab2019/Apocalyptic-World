@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Zavriem_auto_a_počkám_na_Calvina">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Ako sa zombie blíži ku mne, zavriem auto aj všetky okná a snažím sa schovať pod sedačky, aby šla zombie preč. 
+Tá sa však nevzdáva a snaží sa dostať do auta. Po chvíli výjde Calvin z obchodu aj s taškami potravín. 
+Keď si všimne čo sa deje, tašky položí na zem a vytiahne svoj lovecký nôž. Priplíži sa zozadu k zombie a zapichne jej nôž do hlavy. 
+Tá potichu spadla na zem kde sa úplne prestala hýbať. Keď som otvoril dvere a spýtal sa ho prečo ju proste neodstrelil, odpovedal mi, že hluk privoláva ďalšie zombie. 
+Naložil tašky s potravinami do auta a nasadol. Vydali sme sa opäť smerom k letísku. 
+Po ceste nie je moc zombie a Calvin sa snaží vyhýbať všetkým, ktoré po ceste stretneme, aby zbytočne nepoškodil auto. 
+Keď tomu však nejde zabrániť, pár ich zrazí. Dáva však pozor na to, aby sme ich nezrazili moc veľkou rýchlosťou. 
+V diaľke pred nami zbadám ďalšie auto, ktoré mieri tým istým smerom ako my.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Poviem Calvinovi aby pridal" FontSize="25" Grid.Row="2" Clicked="PCAP_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

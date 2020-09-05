@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Skúsim_nájsť_iný_východ">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Utekám po chodbách nemocnice v snahe nájsť vedľajší východ. Nájdem požiarné schodisko, po ktorom sa vydám dolu. 
+Keď som konečne vonku, vidím, že celé mesto je zdevastované. Všetci ľudia naokolo vyzerajú ako tá žena v nemocnici. 
+V meste vypukla zombie apokalypsa. Vystrašený hľadám nejaké auto, ktorým by som sa mohol dostať preč z mesta. 
+Nájdem staršie auto, ktoré má otvorené dvere. Nastúpim dnu a naštartujem. Na moje prekvapenie auto ide v poriadku. 
+Mierim smerom k lesom za mestom. Spomeniem si na našu chatu, ktorá bola na podobné situácie celkom dobre vybavená. Zamierim teda tam.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Idem na chatu" FontSize="25" Grid.Row="2" Clicked="INC_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

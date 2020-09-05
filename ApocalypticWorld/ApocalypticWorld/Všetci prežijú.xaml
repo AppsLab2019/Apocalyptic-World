@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Všetci_prežijú">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Zobudil nás Calvin, ktorý nám oznámil, že za 5 minút budeme pristávať v Madride. 
+V Európe to ešte nebolo také zlé, preto nás na letísku čakali namiesto zombie ľudia. 
+Doplnili sme si palivo a po pár otázkach od polície sme mohli opäť vzlietnúť a pokračovať v našej ceste do Viedne. 
+O pár hodín sme už opäť pristávali, tentokrát konečne vo Viedni. 
+Po pristatí nás na letísku opäť vypočúvali a keď nás konečne pustili, vonku nás už čakala Calvinova rodina, ktorá nám ponúkla ubytovanie aj pohostenie. 
+S veľkou vďakou sme to prijali a všetkým rozprávali, ako moc nám Calvin pomohol. 
+
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Koniec" FontSize="25" Grid.Row="2" Clicked="K_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

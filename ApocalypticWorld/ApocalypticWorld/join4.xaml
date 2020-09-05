@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.join4">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Ďalšie ráno sme zistili, že nám dochádzajú zásoby jedla a vody. Zobral som preto auto a vydal sa opäť do mesta niečo zohnať. 
+Šiel som do prvého obchodu, ktorý bol po ceste. Boli tam len dve zombie a pomerne dosť jedla aj vody. 
+Všetko som pobalil do tašiek a naložil do auta. Avšak bolo tam toho až moc na to, aby sa to zmesilo do auta. 
+Šiel som preto hľadať niečo väčšie. Na ceste som našiel odstavený autobus. Nasadol som dnu a naštartoval. Vrátil som sa k obchodu a všetok tovar naložil. 
+S autobusom som sa vrátil na chatu. Skôr ako som však začal vykladať zásoby, manželka mi povedala že už tam není bezpečno a ukázala mi na väčšiu skupinku zombie, ktorí sa pomaly blížili smerom k nám. 
+Boli však dosť ďaleko. Začali sme si baliť veci a nakládať ich do autobusu. Keď sme mali všetko čo sme potrebovali, vydali sme sa preč.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Pôjdem_s_ním">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Pridám sa k mužovi. Zložil svoj batoh a vytiahol z neho ďalšiu zbraň, ktorú mi podal. Opatrne som si ju zobral, ale muž ma uistil, že zatiaľ nie je nabitá. 
+O chvíľu mi podal zásobník. Nabil som zbraň a spolu s mužom, ktorý sa predstavil ako Calvin sme sa vydali von z nemocnice. 
+Keď som sa ho spýtal čo hľadal v nemocnici, odpovedal mi, že lieky do zásoby. Mal v pláne odletieť do Európy, pretože bol pilot a keď to vypuklo bol zrovna v práci. 
+V Európe mal celú svoju rodinu. Povedal mi, že už má nachystané lietadlo a vraj to v Európe nie je až také zlé. Pre istotu si však pred odletom chcel spraviť zásoby. 
+Zastavili sme ešte v jednom z obchodov pre nejaké potraviny. Ostal som v aute. Calvin zatiaľ šiel dnu. O chvíľu som si všimol ako sa k autu blíži jedna zombie.
+Čo spravím?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Zastrelím ju" FontSize="25" Grid.Row="2" Clicked="ZJ_Clicked"/>
+        <Button Text="Zavriem auto a počkám na Calvina" FontSize="25" Grid.Row="3" Clicked="ZAAPNC_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

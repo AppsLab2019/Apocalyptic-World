@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.join2">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Muž sa predstaví ako Brandon. Povie mi, že má skupinu ľudí, ktorí sú schopní prežiť aj v takejto situácií a spýta sa ma či by som mal záujem sa k ním pridať. 
+Samozrejme bez váhania odpoviem že sa rád pridám. Stále však myslím na svoju rodinu. Preto sa ho spýtam, či náhodou nešli po Cobden Street. 
+K môjmu prekvapeniu mi povie že šli, avšak nikto tam neprežil. Táto správa ma veľmi zarmútila. Znamenalo to totíž, že celá moja rodina je mŕtva. 
+Rozhodol som sa ostať s touto bandou. Dali mi čisté oblečenie, zbrane, aby som sa vedel ochrániť a tak isto aj jedlo. 
+Cestovali sme v dodávkach, karavánoch a kamiónoch. Nikto mi nevedel povedať, kam máme namierené, tak som len robil čo mi povedali a oni mi za to dávali všetko čo som potreboval. 
+Po niekoľkých dňoch sme prišli do mesta, ktoré malo dookola vysoký plot a jediný vstup bol cez niekoľko závor, pri ktorých stáli vojáci so zbraňami. 
+Pustili nás dnu, ale museli sme odovzdať všetky naše zbrane a vozidlá. Súhlasili sme a každému z nás pridelili jednu miestnosť.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

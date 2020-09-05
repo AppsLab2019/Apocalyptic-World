@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Zavolám_Ashley">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Na stole vidím môj mobil, ktorý je vybitý. Zapojím ho do nabíjačky. Naštastie ešte v meste funguje elektrina. 
+Po chvíli sa mobil zapne. Skúšam volať manželke. Nedvíha, ale jej mobil je zapnutý. Preto to skúšam ešte raz. Tento krát úspešne. 
+Pýtam sa jej, kde je. Odpovedá mi, že hneď ako to začalo šla aj s deťmi na našu chatu. Po chvíli zložím a vydám sa smerom na chatu. 
+Keď vychádzam z ulice, zbadám, ako sa v jednom z domov rozsvietilo svetlo. Zastavil som a opatrne sa priblížil k domu. 
+Nahliadol som dnu a zbadal svoju susedu Miu. Nebola zombie. V rukách som pre istotu aj tak držal zbraň. 
+O chvíľu prišiel do miestnosti kde bola aj jej manžel Trevor. Jeho chôdza však bola divná. Keď som sa mu pozrel do očí, došlo mi to. 
+Nie je človek. Vbehol som dnu a namieril zbraň na Trevora. Zakričal som, aby sa otočil na mňa. Keď sa otočil, vystrelil som. Zasiahol som mu brucho. 
+Mia bola veľmi vystrašená. Keď ma spoznala, trochu sa ukľudnila. Stále však neverila tomu, že som odstrelil jej manžela.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Zoberiem ju so sebou" FontSize="25" Grid.Row="2" Clicked="ZJSS_Clicked"/>
+        <Button Text="Ostanem u nej" FontSize="25" Grid.Row="3" Clicked="OUN_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Pôjdeme_ďalej">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Pokračujeme ďalej po ceste až k zábrane. Spoza zábran vidíme ako sa blíži vojenské auto. 
+Keď príde až k nám, vojáci sa nás spýtajú pár otázok, po ktorých nás pustia aj s autom ďalej. 
+Za zábranami nás čakal ešte asi kilometer cesty, po ktorom sme konečne prišli na základňu. 
+Bola veľmi dobre vybavená, mali vlastný zdroj vody a taktiež začali pestovať ovocie a zeleninu. 
+Snažili sa nájsť expertov na výrobu zbraní, aby si vedeli zaobstarať čo najviac zbraní a munície. 
+Pridelili nám vlastné izby, do ktorých sme si zložili veci. Začal som sa vypýtovať, či niekto nevie niečo o mojej rodine. 
+Nikto mi však nevedel nič nové povedať.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Idem ich hľadať." FontSize="25" Grid.Row="2" Clicked="IIH_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

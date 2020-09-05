@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Preč_z_mesta">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Rozhodnem sa vydať preč z mesta. Uvedomím si, že pri tomto všetkom je šanca, že moja rodina prežila takmer nulová. 
+Som na okraji mesta, keď v tom si všimnem že mi dochádza benzín. Pozorujem značky, kde je najbližšia čerpacia stanica. 
+Keď nejakú konečne zbadám, pomaly sa k nej vydám. Zastavím pri jednom zo stojanov, keď v tom zistím, že už tam žiadný benzin nie je. 
+Posuniem teda sanitku k ďalšiemu stojanu. Tentokrát tam našťastie ešte nejaký benzin je. V tom začujem chrčanie, ktoré je čím ďalej tým hlasnejšie. 
+Spoza sanitky vyjde zombie. V panike nestihnem nič urobiť a zombie celou vahou skočí na mňa. 
+Spadnem na zem spolu so zombie, ktorá sa ma snaží pohrýznuť. V tom sa ozve výstrel. Zombie znehybnie a spadne na zem vedľa mňa. 
+Zo strachu sa nemôžem ani len pohnúť. Len ležím na zemi a čakám, čo sa bude diať ďalej. Po chvíli zbadám muža, ktorý ide smerom ku mne. 
+Už je takmer pri mne a ja sa stále nemôžem ani len pohnúť.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

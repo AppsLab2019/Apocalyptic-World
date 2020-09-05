@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Budem_bojovať">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Zombie je už takmer pri mne a jediné čo mám na svoju obranu je železná tyč. Najprv sa snažím zombie len mierne odstrčiť a utekať preč, ale je až moc silná. 
+Preto sa snažím použiť tyč na zhodenie zombie na zem. Ani to sa mi však nedarí. Posledná možnosť je použiť tyč ako bodnú zbraň. Zahnám sa z celej sily a tyčou prerazím zombie brucho. 
+Stále len chrčí a v očiach má úplné prázdno. Vytiahnem tyč a kopnem do zombie. Tá pomaly spadne na zem, avšak k môjmu prekvapeniu sa v hneď opäť postaví a ide ku mne. 
+Tento krát sa rozhodnem že zamierím na hlavu. Tyčou prerazím zombie hlavu. Tá hneď na to znovu spadne,a všsak tento krát už ostane úplne nehybná. 
+So strachom sa rozbehnem preč z uličky. Poriadne ani nevnímam čo sa okolo mňa deje, keď ma zrazu niekto chytí za rameno. 
+Inštinktívne sa zahnám palicou, ale zastaví ma. Až potom si uvedomím, že to nie je zombie ale muž. 
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

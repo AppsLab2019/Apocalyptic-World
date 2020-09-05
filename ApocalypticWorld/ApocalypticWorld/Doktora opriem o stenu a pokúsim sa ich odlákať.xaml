@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Doktora_opriem_o_stenu_a_pokúsim_sa_ich_odlákať">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Opatrne položím doktora k stene a vydám sa smerom k zombie. Keď ma zbadajú, rozbehnú sa mojím smerom. 
+Chvíľu váham čo ďalej, avšak potom sa len rozbehnem smerom preč od doktora. Zombie ma nasledujú. 
+Zbadám bezpečnostné dvere ktoré smerujú naspäť do vnútra nemocnice. Vydám sa k ním a keď som za nimi, opäť sa otočím a vrátim do garáži. 
+Skôr ako zombie stihnú prejsť cez dvere, zavriem ich. Bežím smerom k doktorovi, keď v tom si všimnem, ako sa niekto nakláňa ponad doktora. 
+Hneď si domyslím, že to je zombie. Doktor už sa vôbec nehýbe. Nedá sa mu už pomôcť. Rýchlo bežím k jednej zo sanitiek, nastúpim dnu a štartujem. 
+Ako sa pomaly rozbieham, jedna zombie mi skočí do cesty. Až keď sa lepšie pozriem zbadám, že je to doktor. 
+Neostáva mi nič iné, iba ho prejsť. Keď sa konečne dostanem von z nemocnice, zbadám čo sa deje v meste. 
+Všade sú nemŕtvi, Ulice sú plné áut, ktoré len stoja na mieste. Po chvíli prídem na križovatku. Môžem ísť preč z mesta alebo za svojou rodinou.
+Kam pôjdem?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Preč z mesta" FontSize="25" Grid.Row="2" Clicked="PZM_Clicked"/>
+        <Button Text="Za rodinou" FontSize="25" Grid.Row="3" Clicked="ZR_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

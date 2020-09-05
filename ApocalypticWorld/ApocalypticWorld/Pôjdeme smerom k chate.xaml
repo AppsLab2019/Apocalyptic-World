@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Pôjdeme_smerom_k_chate">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Ponúkol som sa, že budem šoférovať. Namierené sme mali k rodinnej chate, ktorá by mala byť bezpečná. Cesta ubiehala rýchlo, rozprávali sme sa o tom, čo sa dialo. 
+Asi na pol ceste sme si všimli, ako sa jedno z áut na ceste hýbe. Šlo rovno proti nám. Zastavili sme a schovali deti. Ja som vytiahol zbraň a čakal, kým auto príde až k nám. 
+Keď bolo pri nás, zastavilo a vystúpil z neho vysoký muž. Takmer hneď som ho spoznal a zložil zbraň. Bol to muž, ktorý mi pomohol v nemocnici. 
+Spýtal sa ma, či sa stále nechcem k nemu pridať. Tento krát už som to odmietnúť nemohol, preto sme spolu s manželkou súhlasili. Predstavil sa ako Calvin. 
+Potešilo ho, keď zbadal, že sa mi podarilo nájsť svoju rodinu živú. Nasadli sme k nemu do auta a spýtali sa, kam má namierené. 
+Povedal nám o svojom pláne vrátiť sa do Európy, pretože bol civilný pilot a keď to všetko vypuklo, bol tu na služobnej ceste. 
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pridáme sa k nemu" FontSize="25" Grid.Row="2" Clicked="PSKN_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

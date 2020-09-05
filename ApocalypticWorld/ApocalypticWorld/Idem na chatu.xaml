@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Idem_na_chatu">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Už som mimo mesta a mierim k chate. Po ceste kráča čím ďalej tým menej zombie. 
+Keď už som pri odbočke na lesnú cestu, ktorá vedie k chate, v okolí nevidím žiadne zombie. 
+To vo mne vzbudzuje pocit, že by na chate mohla byť moja rodina v poriadku. S nádejou pokračujem v ceste. Dorazil som k chate. 
+Slnko už zapadlo a je pomerne chladno. Mám na sebe len krátke tričko. Cez stromy zbadám svetlo, ktoré prichádza od chaty. 
+Vidím, ako vnútri horí v krbe drevo. Niekto tu určite je. Opatrne prídem k dverám a zaklopem. Nič sa nedeje. 
+Po chvíli sa dvere otvoria, ale prvé čo uvidím je hlaveň brokovnice, ktorá mieri na moju hlavu. Drží ju moja žena. 
+Keď ma spozná, okamžite ju odloží a objíme ma. Pýta sa, ako je možné, že som nažive. Poviem jej celý príbeh. Celý večer sa rozprávame o tom čo sa stalo.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

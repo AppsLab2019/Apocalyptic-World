@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Pokúsim_sa_jej_vyhnúť_a_utekať_ďalej">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Hneď ako sa začala rukou priblížovať ku mne som sa inštinktivne uhol. 
+Kým sa stihla znova natiahnúť smerom ku mne som sa rozbehol povedľa nej smerom k domu. 
+Pomaly sa rozbehla za mnou, avšak bol som rýchlejší. Vbehol som do domu a ihneď za sebou zavrel a zamkol dvere. 
+Začal som prechádzať po dome, ale na dolnom poschodí som nikoho nenašiel. 
+Pomaly som začal ísť po schodoch smerom hore, keď som začul tiché chrčanie. 
+Hneď som pomyslel na to najhoršie, ale aj napriek tomu som pokračoval ďalej. 
+Prídem k dverám od jednej z izieb, a opatrne nakuknem dnu. Vidím tam moju manželku aj deti. 
+Avšak nie sú v poriadku. V očiach majú prázdno a sú celí od krvi. Smutný a nahnevaný sa obrátim a idem po schodoch opäť dole. 
+Vychádzam zadným vchodom a stále plný smútku sa snažím nájsť nejaké auto. Zbadám jedno zaparkované pred susedným domom. Nastúpim dnu a všimnem si že kľúče sú v zapaľovaní.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Vydám sa smerom k malej dedinke" FontSize="25" Grid.Row="2" Clicked="VSSKMD_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

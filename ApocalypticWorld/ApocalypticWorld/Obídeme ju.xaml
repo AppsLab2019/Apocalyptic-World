@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Obídeme_ju">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Ako lepší nápad nám obom príde barikádu obísť. Vybočím preto z cesty na menšiu, poľnú cestu a mierim opäť smerom k základni. 
+Avšak o chvíľu narazíme na ďalšiu zábranu, pri ktorej stoja vojáci. Ukážu nám, aby sme šli ďalej. Zastavíme kúsok pred zábranou a vystúpime. 
+Peši prídeme až k vojákom, ktorí sa hneď pýtajú na naše mená a odkiaľ sme prišli. Pýtajú sa taktiež, či nás nepoškriabal alebo nepohrizol žiaden nemŕtvi. 
+Keď odpovieme že nie, prezrú nás a pustia dnu. Vnútri nám ponúkli všetko čo sme potrebovali. Dali nám jedlo aj pitie na ďalších pár dní. 
+Stále sa pýtam na moju rodinu. Keď mi však nikto neodpovedá, rozhodnem sa ísť ich hľadať sám.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Idem ich hľadať" FontSize="25" Grid.Row="2" Clicked="IIH_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

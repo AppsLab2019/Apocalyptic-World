@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Zoberiem_ju_so_sebou">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Mii vysvetlím kam mám namierené a ponúknem jej, že ju vezmem so sebou. Rozhodne sa, že sa pridá ku mne. 
+Nasadneme do jej auta a vydáme sa na chatu. Šoférujem ja, pretože stále nebola schopná tomu uveriť. 
+Začala mi rozprávať o tom, ako to celé začalo a že si myslela, že Trevor je len chorý. Jedna zo zombie ho totíž poškriabala. 
+Dala mu lieky proti horúčke a zápalu a nechala ho spať. Avšak zobudil sa už ako zombie, ktorú som odstrelil. Asi na polceste nám začal dochádzať benzín. 
+Zastavili sme teda na najbližšej stanici a ja som tankoval. Mia zatiaľ šla hľadať pitie, pretože bola smädná. O chvíľu som začul desivý výkrik. 
+Rozbehol som sa so zbraňou v rukách. Keď som vošiel do predajne, zbadal som Miu, ako leží na zemi a na nej leží zombie. 
+Neváhal som ani sekundu a hneď som vystrelil smerom na zombie. Zasiahol som ju. Pribehol som k Mii a spýtal sa či je v poriadku. 
+Jemným pohybom ruky mi ukázala na svoju nohu, z ktorej chýbala časť mäsa. Poprosila ma, aby som to ukončil. To som však nedokázal. 
+Utekal som do auta pre lekárničku. Kým som však prišiel, Mia tam už nebola. Vybehol som von a začal ju hľadať. Našiel som ju za predajňou. 
+Avšak už som jej nedokázal pomôcť. Bola pri nej ďalšia zombie, ktorá požierala jej vnútornosti. Vystrelil som na zombie, ktorá spadla na zem veďla Mii. 
+Nasadol som do auta a šiel na chatu. Tam ma privítala celá moja rodina. Celý večer sme sa rozprávali o tom, čo sa stalo.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

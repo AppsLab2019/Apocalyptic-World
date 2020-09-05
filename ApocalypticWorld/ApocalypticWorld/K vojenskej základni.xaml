@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.K_vojenskej_základni">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Vydám sa smerom k vojenskej základni, ktorá je asi 80 kilometrov od mesta. Okolie je plné zombie, nikde ani stopa po ľuďoch. 
+Keď som asi na pol ceste, zbadám ako sa niečo na oblohe hýbe. Po chvíli si všimnem, že je to vojenská helikoptéra. 
+Keď aj oni zbadajú mňa, vystrelia svetlicu a otočia sa. Snažia sa mi naznačiť aby som šiel za nimi. Mieria smerom k základni. 
+Keď už sme takmer pri základni, začnú s helikoptérou klesať, až nakoniec pristanú vedľa cesty. Zastavím auto a vystúpim. 
+Povedia mi, že bude lepšie ak pôjdeme všetci helikoptérou. Nenamietam a nastúpim dnu. O chvíľu už pristávame na základni. 
+Prvé na čo sa pýtam je moja rodina, nikto mi však nevie povedať, či tam sú. 
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Idem ich hľadať" FontSize="25" Grid.Row="2" Clicked="IIH_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

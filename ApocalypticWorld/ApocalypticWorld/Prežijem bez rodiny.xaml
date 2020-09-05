@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Prežijem_bez_rodiny">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Vojáci boli milí, starali sa aby sme dostali všetko čo sme potrebovali. Pravidelne nám nosili jedlo a pitie, čisté oblečenie, dokonca zaobstarali aj teplú vodu. 
+Po pár dňoch v meste za mnou prišli vojáci s tým, že potrebujú pomoc. Dali mi zbraň a zobrali ma k hranici mesta, kde stál vysoký plot. 
+Jeden z vojákov mi povedal: Tento plot už dlho nevydrží, musíme odlákať všetky zombie ktoré pri ňom sú a opraviť ho. 
+A tak som poslúžil ako návnada. Dali mi auto, pustili ma za plot a mojou jedinou úlohou bolo odlákať zombie od plotu. 
+Keď už boli dostatočne ďaleko, otočil som sa a vrátil. Vojáci mi poďakovali za spoluprácu a za odmenu mi ponúkli výborné teplé jedlo. 
+Po nejakom čase som spoznal takmer všetkých ľudí v meste. Stále prichádzali ďalší, preto sa museli okraje mesta stále zväčšovať. Každý pomáhal ako vedel.
+
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Koniec" FontSize="25" Grid.Row="2" Clicked="K_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Spolu_s_doktorom_rýchlo_prejdeme_k_sanítke">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Zombie sú čoraz bližšie. S doktorom sa rozhodneme, že sa ich pokúsime obísť. Keď už sú takmer pri nás, z posledných síl sa rozbehneme okolo nich. 
+Podarilo sa. Sme už takmer pri sanitke. Bežím popredu a otváram doktorovi zadné dvere. Keď doktor nastúpi, rýchlo štartujem. Pýtam sa doktora, či je v poriadku. 
+Odpovedá mi, že si potrebuje ľahnúť a vydezinfikovať si ranu na bruchu. Po chvíli nastane úplné ticho. Myslím si, že doktor zaspal. 
+Po chvíli sa však pre istotu vydám doktora skontrolovať. Keď mu priložím ruku k nosu zistím, že nedýcha. Ostanem v šoku a len sedím vedľa neho. 
+O chvíľu si všimnem, že sa jeho ruka mierne pohla. Znovu priložím ruku k jeho nosu. Hneď to však oľutujem. 
+Doktor vyrazil zubami po mojej ruke a ja som len tak tak stihol ruku uhnúť. Vybehol som von zo sanitky, doktor bežal za mnou. 
+Stal sa jedným z nich. Po chvíli som zastavil a pozrel sa za seba. Doktor bol kúsok odo mňa. Rozmýšľal som, čo ďalej. 
+Ako najlepšia možnosť mi prišlo pokúsiť sa dostať k sanitke a ísť ďalej. Keď bol doktor takmer pri mne, rozbehol som sa smerom naspäť k sanitke. 
+Nastúpil som a pridal plný plyn. Unikol som mu.
+
+Kam ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Za rodinou" FontSize="25" Grid.Row="2" Clicked="ZR_Clicked"/>
+        <Button Text="K vojenskej základni" FontSize="25" Grid.Row="3" Clicked="KVZ_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

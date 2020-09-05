@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Poviem_Calvinovi_aby_pridal">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Calvin začal pridávať a čoskoro už sme boli takmer pri aute. O chvíľu auto pred nami zastavilo. Zastavili sme za ním a vystúpili sme. 
+Zbrane sme si nechali v aute, aby sa ľudia v druhom aute nebáli. Keď sme prišli bližšie, zbadali sme, že šoféruje žena. 
+Zdala sa mi však strašne povedomá. Až keď sa na nás pozrela mi došlo že to je moja manželka Ashley. Ihneď vystúpila z auta a objala ma. 
+Calvin sa len díval a nechápal, čo sa deje. Hneď som ich predstavil. Calvin sa potešil keď zistil, že moja rodina je v poriadku. 
+Dúfal, že aj tá jeho. Spolu s Calvinom sme nastúpili do auta k Ashley.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Šli sme s Calvinom na letísko" FontSize="25" Grid.Row="2" Clicked="SSSCNL_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

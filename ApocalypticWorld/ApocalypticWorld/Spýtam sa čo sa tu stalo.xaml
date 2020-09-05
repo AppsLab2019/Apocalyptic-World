@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Spýtam_sa_čo_sa_tu_stalo">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Pomaly sa skloním k doktorovi a pýtam sa, čo sa tu deje. Veľmi potichu mi odpovie: Celé mesto je plné zombie. Utekaj tak ďaleko ako sa len dá. 
+Krátko na to ako to dopovedal sa jeho oči zavreli a dýchanie úplne zastavilo. Vybehol som z miestnosti a zamieril rovno k východu. Vonku to bola hrôza. 
+Zombie boli všade. Utekám ulicami, snažím sa ísť smerom k môjmu domu, kde by mala byť moja rodina. 
+Vyberám úzke a temné uličky, kde by nemuselo byť až tak veľa zombie. Zbadám veľmi úzku uličku, ktorú nepoznám.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Obídem ju" FontSize="25" Grid.Row="2" Clicked="OJ_Clicked"/>
+        <Button Text="Prejdem cez ňu" FontSize="25" Grid.Row="3" Clicked="PCN_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

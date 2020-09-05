@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Pokúsim_sa_ich_preraziť">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Celou silou narážam do dverí, avšak stále sa neotvárajú. Hľadám niečo, čím by sa dali otvoriť. 
+Všimnem si starú posteľ na kolieskách. Roztlačím ju čo najviac proti dverám. Posteľ prerazila dvere. Vyšiel som von. 
+Všade sú ľudia, ktorí však vyzerajú podobne ako žena vovnútri. Vtedy mi to došlo. Sú to zombie. 
+A hluk, ktorý som urobil otváraním dverí ich prilákal. Začal som utekať smerom k parkovisku, ktoré je na druhej strane nemocnice. 
+Po ceste som však našiel odomknuté auto. Rýchlo som nastúpil a vydal sa preč z mesta. Ako najlepšia možnosť mi prišla rodinná chata v horách. Možno tam bude aj moja rodina.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Idem na chatu" FontSize="25" Grid.Row="2" Clicked="INC_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

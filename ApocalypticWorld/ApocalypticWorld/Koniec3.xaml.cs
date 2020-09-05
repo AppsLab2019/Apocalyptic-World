@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace ApocalypticWorld
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage
+    public partial class Koniec3 : ContentPage
     {
-        public MainPage()
+        public Koniec3()
         {
             InitializeComponent();
         }
-        private void Start_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Úvod());
-        }
-
     }
 }

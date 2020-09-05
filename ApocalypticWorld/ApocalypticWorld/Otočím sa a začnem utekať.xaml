@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Otočím_sa_a_začnem_utekať">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Ako sa žena blíži ku mne, najlepším riešením mi príde otočiť sa a utiecť. Snažím sa utekať k východu. 
+Keď k nemu dorazím, rýchlo vybehnem do ulíc. Takmer hneď to však oľutujem. Vonku je to ešte omnoho horšie ako vnútri. 
+Všade je krv, ľudia stoja takmer nehybne. Snažím sa nájsť nejaké auto, keď v tom uvidím ako sa jedno blíži smerom ku mne. 
+Zarazí ma však to, že naráža do ľudí, ktorí stoja na ulici. Vidím ako sa auto rúti rovno na mňa. Uskočím preč z cesty a auto ma len tak-tak minie. 
+Hneď na to však zastaví a začne cúvať smerom ku mne. Tento krát však už nemieri na mňa. Vo vnútri sedí žena. Spoznávam ju. 
+Je to moja kolegyňa z práce. Keď zistí kto som, ihneď mi otvorí dvere a povie mi nech nastúpim. 
+Pýtam sa jej, čo sa to deje, prečo zráža ľudí. Spýta sa ma, ako je možné že neviem čo sa deje a pritom som stále nažive. 
+Poviem jej čo sa mi stalo a ona mi odpovie že po celom svete vypukla zombie apokalypsa. Hneď sa spýtam na moju rodinu. 
+Povie mi, že väčšinu ľudí zobrala armáda, ale nie všetci to prežili. Kúsok odtiaľto je vojenská základňa, kde odviezli všetkých ľudí, ktorí prežili, doplní. 
+Spýtam sa, kam má namierené. Odpovedá mi že na základňu, pretože sa snaží nájsť svoju rodinu. 
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pridám sa k nej" FontSize="25" Grid.Row="2" Clicked="PSKN_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

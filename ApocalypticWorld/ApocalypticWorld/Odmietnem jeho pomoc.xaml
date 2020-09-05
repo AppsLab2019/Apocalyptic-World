@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Odmietnem_jeho_pomoc">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="S vďakou som odmietol jeho pomoc, pretože som nevedel kto to je a čo má v pláne. Ostal zarazený, avšak pomohol mi aspoň dostať sa von z nemocnice. 
+Vonku mi našiel auto a keď sme sa lúčili ponúkol mi aj zbraň. Nie veľmi rád som si ju zobral. Nasadol som do auta a vydal sa preč. 
+Sám neviem, kam mám namierené. Nakoniec sa však vydám smerom domov. Keď tam konečne dorazím, vystúpim z auta a mierim dnu. Dvere sú zavreté. 
+Skúsim opatrne zaklopať. Nič sa však nedeje. O chvíľu to skúsim znova, avšak stále nič. Skúsim otvoriť dvere, ale sú zamknuté. 
+Spomeniem si, kde máme schované nahradné kľúče. Zoberiem kľúč a odomknem dvere. Opatrne vchádzam dnu, so zbraňou v rukách. 
+Nikde však nikto nie je. Jediné čo vidím je, že moja rodina odišla aj s vecami. 
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Zavolám Ashley" FontSize="25" Grid.Row="2" Clicked="ZA_Clicked"/>
+        <Button Text="Ostanem v dome" FontSize="25" Grid.Row="3" Clicked="OVD_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

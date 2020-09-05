@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Pridám_sa_k_nej">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Spýtam sa, či by som sa mohol pridať. Samozrejme odpovie, že áno. Vydáme sa teda smerom k základni. 
+Po ceste vidíme veľa zombie, ktoré len tak stoja na ceste. Sme asi 50 kilometrov od základne, keď nám začne dochádzať benzin. 
+Keď už úplne došiel, zastavili sme a vystúpili. Sme asi 35 kilometrov od základne. 
+Nikde v okolí nie je žiadna čerpacia stanica, preto sa snažíme nájsť nejaké iné auto. 
+Zbadám staršiu dodávku, ktorá má otvorené dvere. Nastúpim dnu a pozriem sa, či sú kľúče v zapaľovaní. 
+Našťastie tam sú, tak sa pokúsim naštartovať. Podarilo sa. Opäť sa vydáme smerom k základni. Šoférujem však ja. 
+Väčšine zombie sa snažím vyhýbať. Keď to nie je možné, zrazím ich. Pomaly sa blížime k základni. V diaľke však zbadáme zábranu cez celú cestu. Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Obídeme ju" FontSize="25" Grid.Row="2" Clicked="OJ_Clicked"/>
+        <Button Text="Pôjdeme ďalej" FontSize="25" Grid.Row="3" Clicked="PD_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

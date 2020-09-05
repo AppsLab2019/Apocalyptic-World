@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Join1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Vydám sa smerom k malej dedinke vedľa nášho mesta. Po ceste stretám veľa zombie a už ich ani veľmi nevnímam. 
+Všetky moje myšlenky smerujú k mojej rodine, ktorej už nedokážem nijako pomôcť. Z myšlienok ma vytrhne jedna kývajúca zombie. 
+Najprv si myslím, že je to len ďalšia z nich, až potom mi dôjde že je to človek. Zastavím a stiahnem okno auta. Je to žena. 
+Rýchlo pribehla k môjmu autu a nasadla dozadu. Hneď ako nastúpila mi povedala aby som okamžite pokračoval. 
+Začal som zrýchľovať a s mierným strachom sa opýtal, čo je zač. Predstavila sa a spýtala sa kam mám namierené. 
+Odpovedal som že ani neviem a povedal jej čo som videl. Po chvíli mi povedala: Kúsok odtiaľto je vojenská základňa, berú tam aj civilistov. 
+Povedala mi ktorým smerom to je a vydali sme sa tam. Ked sme tam dorazili, zastavili nás vojáci, ktorí sa pýtali odkiaľ ideme. Po pár otázkach nás pustili dnu a dali nám jedlo a vodu.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Chvíľu_si_ešte_oddýchnem">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Pokusil som sa nohu dostať do polohy aby čo najmenej bolela a zavrel som oči. Cítim, ako pomaly zaspávam. 
+Zobudil ma až desivý výkrik, ktorý šiel z ľavej strany. Veľmi rýchlo som sa pokúsil zdvihnúť komodu zo svojej nohy. 
+Keď som ju konečne dostal preč, po tme som sa snažil nájsť dvere. Keď som ich nahmatal, zistil som, že sú pootvorené. 
+Keď som cez ne nakukol, videl som svetlo a zistil som, že som v nemocnici. Avšak vôbec to tu ako v nemocnici nevyzerá. 
+Po celej chodbe sú rozhadzané papiere, lôžka sú taktiež po celej chodbe, svetlo poblikáva. Na stenách je vidieť krvavé škvrny, ktoré vyzerajú čerstvo. 
+Čo sa to tu stalo? Snažím sa zistiť, odkiaľ presne prišiel výkrik. Zbadám ženu, ktorá je celá od krvi.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Otočím sa a začnem utekať" FontSize="25" Grid.Row="2" Clicked="OSAZU_Clicked"/>
+        <Button Text="Zakričím na ňu" FontSize="25" Grid.Row="3" Clicked="ZNN_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="button_Clicked"/>
+    </Grid>
+</ContentPage>

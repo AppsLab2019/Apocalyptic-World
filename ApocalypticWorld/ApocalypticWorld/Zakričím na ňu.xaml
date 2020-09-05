@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Zakričím_na_ňu">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Zakričím na ženu, ktorá bola ku mne otočená chrbtom. Hneď po tom ako som zakričal sa žena otočila smerom ku mne. Oči mala celé biele. 
+Na bruchu mala hlbokú ranu, z ktorej jej vytekala krv. Spýtal som sa, či je v poriadku. Neodpovedala, len ticho sičala a šla smerom ku mne. 
+Začal som sa báť, preto som začal pomaly cúvať. Narazil som na stenu, avšak žena sa stále blížila mojím smerom. 
+Keď bola takmer pri mne, začala cvakať zubami. Vystrašený som ju od seba odhodil rukami. Spadla na zem, avšak nejavila žiadne známky bolesti. 
+Preskočil som ju a začal utekať smerom k východu. Keď už som pri východe, zistím, že dvere sú zablokované.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokúsim sa ich preraziť" FontSize="25" Grid.Row="2" Clicked="PSIP_Clicked"/>
+        <Button Text="Skúsim nájsť iný východ" FontSize="25" Grid.Row="3" Clicked="SNIV_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

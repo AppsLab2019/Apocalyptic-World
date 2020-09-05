@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Príchod_domov">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Naplnený strachom ale zároveň adrenalínom sa snažím nájsť pri dome niečo, čo by som mohol použiť ako zbraň. 
+Našiel som sekeru, to by malo stačiť. Pomaly vchádzam dnu, kde však nikto není. Pokračujem na poschodie, kde počujem tiché chrčanie. 
+Keď otvorím dvere, zbadám manželku a deti. Avšak nie sú v poriadku. Nie sú ani trochu v poriadku. Dostali ich. 
+V zúfalstve udriem sekerou do dverí, čo upúta ich pozornosť. Postavili sa a smerujú ku mne. Vybehnem von z domu a opäť nasadám do auta.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Vydám sa smerom k malej dedinke" FontSize="25" Grid.Row="2" Clicked="VSSKMD_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

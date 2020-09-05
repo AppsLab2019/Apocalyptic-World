@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.join5">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Po asi dvoch hodinách cesty sme konečne dorazili na letísko. Bolo tam dosť zombie, ale Calvin mal v zálohe samopal. 
+Zobrali sme všetky zásoby z auta a prešli sme až na jednu z pristávacích dráh. Našli sme tam menšie súkromné lietadlo. 
+Calvin nastúpil ako prvý a skontroloval, či je lietadlo v poriadku. Zistil, že má dokonca plnú nádrž. Nastúpili sme a Calvin sa začal pripravovať na odlet. 
+Spolu s deťmi a Ashley sme sa usadili vzadu a čakali, kým vzlietneme. Keď sme konečne vzlietli, Calvin nám oznámil, že mierime do Viedne s medzipristátim v Madride, kvôli palivu. 
+Do Madridu by sme mali priletieť za 7 hodín. Všetci sme boli veľmi unavení a čoskoro sme všetci zaspali.
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokračovať" FontSize="25" Grid.Row="2" Clicked="P_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

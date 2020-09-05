@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Obídem_ju">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Ulička sa mi zdá až príliš úzka na to aby som cez ňu prešiel. Preto idem ďalej až kým nenájdem inú, širšiu uličku. 
+Prejdem ňou a s radosťou zistím, že už som takmer doma. Z posledných síl bežím smerom k domu. 
+Na uliciach je stále dosť zombie a pomaly začínam strácať nádej, že by moja rodina mohla prežiť. 
+Už som takmer pri mojom dome, keď vtom mi do cesty skočila jedna z nemŕtvych. Hneď som ju spoznal. Bola to moja suseda. Rukou siahla smerom ku mne.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Pokúsim sa jej vyhnúť a utekať ďalej" FontSize="25" Grid.Row="2" Clicked="PSJVAUD_Clicked"/>
+        <Button Text="Skúsim s ňou bojovať" FontSize="25" Grid.Row="3" Clicked="SSNB_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

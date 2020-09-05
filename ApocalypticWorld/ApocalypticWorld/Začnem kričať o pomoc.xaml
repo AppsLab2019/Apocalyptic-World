@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Začnem_kričať_o_pomoc">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Nohou nemôžem ani pohnúť preto sa pokúsim zakričať najviac ako viem. Avšak nikto neprichádza. 
+Skúšam to ďalej, ale stále nič. Pomaly sa mi podarilo dostať nohu spod komody. Po chvíli začujem kroky. 
+Sú čoraz bližšie. O chvíľu sa otvoria dvere a dovnútra vôjde vysoký muž so zbraňou v rukách. Namieril na mňa. 
+V šoku som onemel. Povedal mi nech sa postavím a niečo poviem. Keď som to urobil, zložil zbraň a spýtal sa ma čo tu robím. 
+Povedal som mu, že si nič nepamätám a spýtal som sa, čo sa tu deje. Odpovedal mi: Už sa to dostalo aj tu. Všade sú zombie. Ponúkol mi pomoc.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Odmietnem jeho pomoc" FontSize="25" Grid.Row="2" Clicked="OJP_Clicked"/>
+        <Button Text="Pôjdem s ním" FontSize="25" Grid.Row="3" Clicked="PSN_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

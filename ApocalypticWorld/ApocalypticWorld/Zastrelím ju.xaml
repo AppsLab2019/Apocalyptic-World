@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Zastrelím_ju">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Vytiahnem zbraň, ktorú mám schovanú za opáskom a zamierim na zombie. Mierim priamo na hlavu. Opatrne zmačknem spúšt. 
+Ozve sa výstrel a zombie padá na zem. Pár sekúnd na to vybehne Calvin z obchodu a pýta sa ma, čo som to urobil. 
+Keď som mu odpovedal, povedal, že hluk priláka ďalšie zombie a musíme odtiaľ hneď vypadnúť. 
+Naštartoval a vyrazili sme ďalej smerom k letísku. Po ceste nie je moc zombie a Calvin sa snaží vyhýbať všetkým, ktoré po ceste stretneme, aby zbytočne nepoškodil auto. 
+Keď tomu však nejde zabrániť, pár ich zrazí. Dáva však pozor na to, aby sme ich nezrazili moc veľkou rýchlosťou. 
+V diaľke pred nami zbadám ďalšie auto, ktoré mieri tým istým smerom ako my.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Poviem Calvinovi aby pridal" FontSize="25" Grid.Row="2" Clicked="PCAP_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="3" Clicked="Button_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApocalypticWorld.Začnem_utekať_ďalej">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <ScrollView HeightRequest="300" Grid.Row="1">
+            <Frame BorderColor="Transparent">
+                <Label Text="Rozbehnem sa najrýchlejšie ako viem a snažím sa nájsť východ z nemocnice. Všade naokolo je počut krik a všetko je od krvi. 
+Začínam si všímať čo sa tu deje. Vidím niekoľko ľudí, ktorí však nemôžu byť živí, pretože majú veľmi vážne zranenia. 
+Napriek tomu však kráčajú smerom ku mne. Neviem čo robiť, preto sa rozbehnem druhým smerom. Konečne vidím východ z budovy. 
+Vybehnem von, avšak vonku to nie je o nič lepšie. Na cestách ležia mŕtvi ľudia a nad nimi sa skláňajú tie obludy, ktoré ich požierajú. 
+Začína mi dochádzať čo sú zač. Snažím sa nájsť nejaké otvorené auto, ktorým by som sa mohol dostať domov. Vidím auto s otvorenými dverami a rozbehnem sa k nemu. 
+Rýchlo nasadnem a skúsim naštartovať. Auto však štartuje veľmi ťažko. Vidím ako sa ku mne pomaly blížia nemŕtvi.
+Čo ďalej?
+" TextColor="Black"/>
+            </Frame>
+        </ScrollView>
+        <Button Text="Skúsim znova naštartovať" FontSize="25" Grid.Row="2" Clicked="SZN_Clicked"/>
+        <Button Text="Zavriem všetky dvere a pokúsim sa schovať" FontSize="25" Grid.Row="3" Clicked="ZVDAPSS_Clicked"/>
+        <Button Text="ODSTRANIT" FontSize="25" Grid.Row="4" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>
